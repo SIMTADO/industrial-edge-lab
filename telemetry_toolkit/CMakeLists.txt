@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_library(telemetry_core
+add_library(telemetry_core STATIC
     src/temperature_conversion.cpp
     src/measures_statistics.cpp
 )
